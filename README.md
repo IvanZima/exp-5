@@ -105,3 +105,4 @@
 
 ![Image text](https://github.com/IvanZima/exp-5/blob/master/%E6%89%93%E5%8D%B0.png)
 
+![Image text](https://github.com/IvanZima/exp-5/blob/master/%E5%AD%A6%E7%94%9F%E6%B3%A8%E5%86%8C.PNG)
