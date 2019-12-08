@@ -16,8 +16,73 @@
 
 流程图<br>
 ====
-![Image text]
+
+![Image text](https://github.com/IvanZima/exp-5/blob/master/%E6%B5%81%E7%A8%8B%E5%9B%BE.PNG)
+   
 核心代码<br>
 =====
+
+public class Index extends JFrame {
+	private JPanel contentPane;
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Index frame = new Index();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	public Index() {
+		setTitle("Index");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(150, 150, 550, 400);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		JButton btnNewButton = new JButton("Exit");
+		btnNewButton.setBounds(0, 107, 97, 23);
+		contentPane.add(btnNewButton);
+		btnNewButton.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				Exit exit = new Exit();
+				exit.setVisible(true);
+			}
+		});
+		JButton btnNewButton_2 = new JButton("创建");
+		btnNewButton_2.setBounds(533, 107, 97, 23);
+		contentPane.add(btnNewButton_2);
+		btnNewButton_2.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				Create create = new Create();
+				create.setVisible(true); 
+			}
+		});
+		JButton btnNewButton_1 = new JButton("选择");
+		btnNewButton_1.setBounds(339, 107, 97, 23);
+		contentPane.add(btnNewButton_1);
+		btnNewButton_1.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				Chose chose = new Chose();
+				chose.setVisible(true); 
+			}
+		});
+		JButton btnNewButton_3 = new JButton("预览");
+		btnNewButton_3.setBounds(175, 107, 97, 23);
+		contentPane.add(btnNewButton_3);
+		btnNewButton_3.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				Print print = new Print();
+				print.setVisible(true);
+			}
+		});
+	}
+
+通过GUI编程完成主界面的设计
 
 
