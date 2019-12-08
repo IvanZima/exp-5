@@ -103,3 +103,5 @@
 
 ![Image text](https://github.com/IvanZima/exp-5/blob/master/%E4%B8%BB%E7%95%8C%E9%9D%A2PNG.PNG)
 
+![Image text](https://github.com/IvanZima/exp-5/blob/master/%E6%89%93%E5%8D%B0.png)
+
