@@ -21,15 +21,14 @@
    
 核心代码<br>
 =====
-
-
-
-public Index() {
+     
+     
+     public Index() {
 		setTitle("Index");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(150, 150, 550, 400);
 		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+	contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		JButton btnNewButton = new JButton("Exit");
@@ -69,6 +68,7 @@ public Index() {
 			}
 		});
 	}
+
 
 通过GUI编程完成主界面的设计
 
