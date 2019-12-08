@@ -98,3 +98,5 @@
 
 程序截图<br>
 =========
+
+![Image text](https://github.com/IvanZima/exp-5/blob/master/%E6%B3%A8%E5%86%8C.PNG)
