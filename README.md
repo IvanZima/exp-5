@@ -106,3 +106,8 @@
 ![Image text](https://github.com/IvanZima/exp-5/blob/master/%E6%89%93%E5%8D%B0.png)
 
 ![Image text](https://github.com/IvanZima/exp-5/blob/master/%E5%AD%A6%E7%94%9F%E6%B3%A8%E5%86%8C.PNG)
+
+实验感想<br>
+========
+
+   通过此次实验目的是完成一个学生选课系统。在编写程序过程中使用了GUI编程的方法来进行完成界面，将这学期所学的java理论知识加以实际运用。从预习到最后代码运行期间出现了许多问题， 通过与同学探讨编写代码的思路和借鉴网上已有的代码解决了大部分问题，在此过程中也使得我的编程能力得到提高。此次Java实验更培养了我们独立思考，分析问题，并解决问题的方法。
