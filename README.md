@@ -22,22 +22,9 @@
 核心代码<br>
 =====
 
-public class Index extends JFrame {
-	private JPanel contentPane;
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Index frame = new Index();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
-	public Index() {
+
+public Index() {
 		setTitle("Index");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(150, 150, 550, 400);
